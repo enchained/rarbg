@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAIER pknw1@hotmail.co.uk
+MAINTAINER pknw1@hotmail.co.uk
 
 ENV LANG='en_US.UTF-8' \
     LANGUAGE='en_US.UTF-8' \
