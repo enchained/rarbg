@@ -4,7 +4,7 @@ setup(
     name='rarbg',
     version='0.2-dev',
     description='RSS interface to TorrentAPI',
-    url='https://github.com/banteg/rarbg',
+    url='https://github.com/enchained/rarbg',
     py_modules=['rarbg'],
     install_requires=[
         'aiohttp',
