@@ -1,7 +1,5 @@
 FROM alpine:edge
 
-RUN echo 123
-
 MAINTAINER enchained
 
 ENV LANG='en_US.UTF-8' \
