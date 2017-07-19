@@ -28,10 +28,12 @@ TEMPLATE = Template('''
         <item>
             <title>{{entry.title}} ({{entry.hsize}})</title>
             <description/>
-            <guid>{{entry.hash}}</guid>
+            <guid isPermaLink="false">{{entry.hash}}</guid>
             <pubDate>{{entry.pubdate}}</pubDate>
+            <link>{{entry.download|e}}</link>
+            <description>{{entry.title}}<br><br>{{entry.download|e}}</description>
             <enclosure
-                url="{{entry.download}}"
+                url="{{entry.download|e}}"
                 length="{{entry.size}}"
                 type="application/x-bittorrent" />
         </item>
