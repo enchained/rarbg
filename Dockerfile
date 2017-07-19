@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAINER pknw1@hotmail.co.uk
+MAINTAINER enchained
 
 ENV LANG='en_US.UTF-8' \
     LANGUAGE='en_US.UTF-8' \
@@ -9,7 +9,7 @@ ENV LANG='en_US.UTF-8' \
 RUN apk update && \
     apk add --update git python3
 
-RUN pip3 install git+https://github.com/banteg/rarbg && \
+RUN pip3 install git+https://github.com/enchained/rarbg && \
     rm -rf /tmp/src && \
     rm -rf /var/cache/apk/*
 
